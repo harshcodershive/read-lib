@@ -61,12 +61,14 @@ export function Navbar() {
                     </div>
 
                     <div className="hidden md:flex items-center gap-4">
-                        <Button variant="ghost" size="sm">
+                        {/* <Button variant="ghost" size="sm">
                             Log in
-                        </Button>
-                        <Button size="sm" className="shadow-lg shadow-primary/25">
-                            Request Demo
-                        </Button>
+                        </Button> */}
+                        <Link href="/download/windows">
+                            <Button size="sm" className="shadow-lg shadow-primary/25">
+                                Request Demo
+                            </Button>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}

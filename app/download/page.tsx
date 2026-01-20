@@ -12,7 +12,7 @@ export default function DownloadPage() {
             <section className="bg-muted/30 py-20">
                 <div className="container mx-auto px-4 text-center">
                     <Badge className="mb-4">Version 2.5.0 Now Available</Badge>
-                    <h1 className="text-4xl font-bold mb-6">Download Read-Lib</h1>
+                    <h1 className="text-4xl font-bold mb-6">Download Read Your Lib</h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                         Get the latest version of the smartest library management software for your operating system.
                     </p>

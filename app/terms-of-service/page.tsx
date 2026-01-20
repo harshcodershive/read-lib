@@ -15,14 +15,14 @@ export default function TermsOfServicePage() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
                         <p className="text-muted-foreground">
-                            By accessing or using the Read-Lib software ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Service.
+                            By accessing or using the Read Your Lib software ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Service.
                         </p>
                     </div>
 
                     <div>
                         <h2 className="text-2xl font-bold mb-4">2. Software License</h2>
                         <p className="text-muted-foreground">
-                            Subject to your compliance with these Terms, Read-Lib grants you a limited, non-exclusive, non-transferable, non-sublicensable license to use the Software for your internal library management purposes.
+                            Subject to your compliance with these Terms, Read Your Lib grants you a limited, non-exclusive, non-transferable, non-sublicensable license to use the Software for your internal library management purposes.
                         </p>
                         <ul className="list-disc pl-6 mt-4 space-y-2 text-muted-foreground">
                             <li>You may not reverse engineer, decompile, or disassemble the Software.</li>
@@ -54,7 +54,7 @@ export default function TermsOfServicePage() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">6. Limitation of Liability</h2>
                         <p className="text-muted-foreground">
-                            In no event shall Read-Lib, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.
+                            In no event shall Read Your Lib, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.
                         </p>
                     </div>
 

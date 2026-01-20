@@ -13,7 +13,7 @@ export default function ApiIntegrationsPage() {
                     <Badge variant="outline" className="border-slate-600 text-slate-400 mb-4 px-3 py-1">Developer Zone</Badge>
                     <h1 className="text-4xl font-bold mb-6">API & Integrations</h1>
                     <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-                        Extend Read-Lib's capabilities. Connect with ERPs, Student Information Systems, and custom applications via our REST API.
+                        Extend Read Your Lib's capabilities. Connect with ERPs, Student Information Systems, and custom applications via our REST API.
                     </p>
                     <div className="mt-8">
                         <Button variant="secondary" size="lg">Read API Documentation</Button>

@@ -13,15 +13,15 @@ export default function PrivacyPolicyPage() {
             <section className="py-16 container mx-auto px-4 max-w-4xl">
                 <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
                     <p className="lead">
-                        At Read-Lib, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you use our library management software and services.
+                        At Read Your Lib, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you use our library management software and services.
                     </p>
 
                     <div>
                         <h2 className="text-2xl font-bold mb-4">1. Information We Collect</h2>
                         <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-                            <li><strong>Account Information:</strong> When you register for Read-Lib, we collect your name, institution name, email address, and payment information.</li>
-                            <li><strong>Usage Data:</strong> We may collect anonymous data on how you interact with our software to improve performance and user experience (e.g., feature usage, crash reports).</li>
-                            <li><strong>Library Data:</strong> Book records, member details, and transaction logs stored within your Read-Lib instance are <strong>your property</strong>. In our Cloud version, this data is encrypted and stored securely. We do not sell or analyze your library's private data for advertising purposes.</li>
+                            <li><strong>Account Information:</strong> When you register for Read Your Lib, we collect your name, institution name, email address, and payment information.</li>
+                            <li><strong>Usage Data:</strong> We may collect data on how the software is accessed and used.</li>
+                            <li><strong>Library Data:</strong> Book records, member details, and transaction logs stored within your Read Your Lib instance are <strong>your property</strong>. In our Cloud version, this data is encrypted and stored securely. We do not sell or analyze your library's private data for advertising purposes.</li>
                         </ul>
                     </div>
 
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">3. Data Security</h2>
                         <p className="text-muted-foreground">
-                            We implement industry-standard security measures to protect your data, including encryption in transit (TLS) and at rest. Access to your personal information is restricted to authorized Read-Lib employees who need it to perform their jobs.
+                            We implement industry-standard security measures to protect your data, including encryption in transit (TLS) and at rest. Access to your personal information is restricted to authorized Read Your Lib employees who need it to perform their jobs.
                         </p>
                     </div>
 
@@ -52,17 +52,18 @@ export default function PrivacyPolicyPage() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">5. Your Rights</h2>
                         <p className="text-muted-foreground">
-                            Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete your data. To exercise these rights, please contact us at privacy@read-lib.com.
+                            Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete your data. To exercise these rights, please contact us at privacy@readyourlib.com.
                         </p>
                     </div>
 
                     <div>
                         <h2 className="text-2xl font-bold mb-4">6. Contact Us</h2>
-                        <p className="text-muted-foreground">
-                            If you have any questions about this Privacy Policy, please contact us at: <br />
-                            <strong>Read-Lib Privacy Team</strong><br />
-                            18, 207 Regent Street, London, W1B 3HH<br />
-                            Email: privacy@read-lib.com
+                        <p className="text-muted-foreground leading-relaxed">
+                            If you have any questions about this Privacy Policy, please contact us:
+                            <br /><br />
+                            <strong>Read Your Lib Privacy Team</strong><br />
+                            18, 207 Regent Street, London, W1B 3HH, UK<br />
+                            Email: privacy@readyourlib.com
                         </p>
                     </div>
                 </div>

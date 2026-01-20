@@ -45,7 +45,7 @@ export default function ChangelogPage() {
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl font-bold mb-4">Changelog</h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        See what's new, fixed, and improved in Read-Lib.
+                        See what's new, fixed, and improved in Read Your Lib.
                     </p>
                 </div>
             </section>

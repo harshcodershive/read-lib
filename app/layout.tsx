@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Read-Lib | Smart Library Management System",
+  title: "Read Your Lib | Smart Library Management System",
   description: "Efficient, cloud-based library management software for schools, universities, and public libraries.",
 };
 

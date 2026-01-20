@@ -151,7 +151,7 @@ export default function Home() {
                 Everything you need to run a modern library.
               </h2>
               <p className="text-lg text-muted-foreground">
-                Read-Lib eliminates the chaos of manual book tracking. Our automated system handles the heavy lifting so you can focus on reading.
+                Read Your Lib eliminates the chaos of manual book tracking. Our automated system handles the heavy lifting so you can focus on reading.
               </p>
               <ul className="space-y-4 pt-4">
                 {[
@@ -187,7 +187,7 @@ export default function Home() {
               <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border/50">
                 <Image
                   src="/lib-app-pic.jpg"
-                  alt="Read-Lib Dashboard Interface"
+                  alt="Read Your Lib Dashboard Interface"
                   fill
                   className="object-cover"
                   priority
@@ -208,7 +208,7 @@ export default function Home() {
                 Ready to modernize your library?
               </h2>
               <p className="text-lg text-primary-foreground/80">
-                Join hundreds of schools and libraries already using Read-Lib to manage their collections effortlessly.
+                Join hundreds of schools and libraries already using Read Your Lib to manage their collections effortlessly.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">

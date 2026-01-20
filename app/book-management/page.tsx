@@ -12,7 +12,7 @@ export default function BookManagementPage() {
                     <Badge className="mb-4">Core Feature</Badge>
                     <h1 className="text-4xl font-bold mb-6">Advanced Book Management</h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        The heart of Read-Lib. Organize, track, and manage your entire collection with professional precision.
+                        The heart of Read Your Lib. Organize, track, and manage your entire collection with professional precision.
                     </p>
                 </div>
             </section>
@@ -26,7 +26,7 @@ export default function BookManagementPage() {
                             <div className="h-3 w-3 rounded-full bg-yellow-400" />
                             <div className="h-3 w-3 rounded-full bg-green-400" />
                         </div>
-                        <div className="flex-1 text-center text-sm font-medium text-muted-foreground">Read-Lib Dashboard - Book Manager</div>
+                        <div className="flex-1 text-center text-sm font-medium text-muted-foreground">Read Your Lib Dashboard - Book Manager</div>
                     </div>
 
                     <div className="p-6">

@@ -16,7 +16,7 @@ export default function AboutPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                     >
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">About Read-Lib</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">About Read Your Lib</h1>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                             We are on a mission to modernize libraries and make knowledge accessible to everyone through smart technology.
                         </p>
@@ -50,7 +50,7 @@ export default function AboutPage() {
                             <Badge className="bg-primary/10 text-primary hover:bg-primary/20 transition-colors">Our Vision</Badge>
                             <h2 className="text-3xl font-bold">A Connected Future</h2>
                             <p className="text-muted-foreground leading-relaxed">
-                                We envision a world where every library, regardless of size or budget, has access to state-of-the-art management software. We see Read-Lib as the backbone of a global network of interconnected knowledge hubs.
+                                We envision a world where every library, regardless of size or budget, has access to state-of-the-art management software. We see Read Your Lib as the backbone of a global network of interconnected knowledge hubs.
                             </p>
                         </motion.div>
                     </div>
@@ -61,7 +61,7 @@ export default function AboutPage() {
             <section className="py-20 bg-secondary/10">
                 <div className="container mx-auto px-4">
                     <div className="text-center max-w-3xl mx-auto mb-16">
-                        <h2 className="text-3xl font-bold mb-4">Who Use Read-Lib?</h2>
+                        <h2 className="text-3xl font-bold mb-4">Who Use Read Your Lib?</h2>
                         <p className="text-muted-foreground">Built for versatility, customized for you.</p>
                     </div>
 

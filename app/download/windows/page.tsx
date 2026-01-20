@@ -16,7 +16,7 @@ export default function WindowsDownloadPage() {
                             <path d="M0 3.449L9.75 2.1v9.451H0v-8.102zm10.724-1.63L24 0v11.4h-13.276V1.818zM24 12.75v11.25L10.724 22.182V12.75H24zM0 12.953h9.75v8.001L0 20.25v-7.297z" />
                         </svg>
                     </div>
-                    <h1 className="text-4xl font-bold mb-4">Download Read-Lib for Windows</h1>
+                    <h1 className="text-4xl font-bold mb-4">Download Read Your Lib for Windows</h1>
                     <p className="text-xl text-muted-foreground mb-8">
                         The complete library management experience, optimized for Windows 10 and 11.
                     </p>
@@ -41,7 +41,7 @@ export default function WindowsDownloadPage() {
                     <AlertCircle className="h-4 w-4" />
                     <AlertTitle>Important</AlertTitle>
                     <AlertDescription>
-                        Read-Lib requires the .NET Desktop Runtime 6.0 or higher. The installer will prompt you to download it if missing.
+                        Read Your Lib requires the .NET Desktop Runtime 6.0 or higher. The installer will prompt you to download it if missing.
                     </AlertDescription>
                 </Alert>
 
@@ -54,7 +54,7 @@ export default function WindowsDownloadPage() {
                                 "Double-click the file to launch the setup wizard.",
                                 "Accept the license agreement and choose your installation folder.",
                                 "Click 'Install' and wait for the process to complete.",
-                                "Launch Read-Lib from your desktop shortcut."
+                                "Launch Read Your Lib from your desktop shortcut."
                             ].map((step, i) => (
                                 <li key={i} className="relative">
                                     <span className="absolute -left-[41px] flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground ring-4 ring-background">
@@ -102,7 +102,7 @@ export default function WindowsDownloadPage() {
                     <div className="rounded-xl border shadow-2xl overflow-hidden max-w-4xl mx-auto bg-black">
                         {/* Placeholder for Windows Screenshot */}
                         <div className="aspect-video flex items-center justify-center text-white/50 bg-gradient-to-br from-zinc-800 to-zinc-950">
-                            <p>Read-Lib Windows Application Screenshot</p>
+                            <p>Read Your Lib Windows Application Screenshot</p>
                         </div>
                     </div>
                 </div>

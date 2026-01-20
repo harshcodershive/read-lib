@@ -22,12 +22,12 @@ export default function OverviewPage() {
                 </div>
             </section>
 
-            {/* What is Read-lib */}
+            {/* What is Read Your Lib */}
             <section className="py-20">
                 <div className="container mx-auto px-4 max-w-4xl">
-                    <h2 className="text-3xl font-bold mb-6">What is Read-Lib?</h2>
+                    <h2 className="text-3xl font-bold mb-6">What is Read Your Lib?</h2>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                        Read-Lib is a comprehensive software solution designed to automate the day-to-day operations of a library. From cataloging books to managing checkouts and fines, Read-Lib handles it all through an intuitive, easy-to-use interface.
+                        Read Your Lib is a comprehensive software solution designed to automate the day-to-day operations of a library. From cataloging books to managing checkouts and fines, Read Your Lib handles it all through an intuitive, easy-to-use interface.
                     </p>
                     <p className="text-lg text-muted-foreground leading-relaxed">
                         Whether you are running a small school library or a large public institution, our software scales to meet your needs, ensuring that your focus remains on education and literacy rather than paperwork.

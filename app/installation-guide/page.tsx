@@ -12,7 +12,7 @@ export default function InstallationGuidePage() {
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl font-bold mb-4">Installation Guide</h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        Follow these simple steps to get Read-Lib up and running in minutes.
+                        Follow these simple steps to get Read Your Lib up and running in minutes.
                     </p>
                 </div>
             </section>
@@ -58,11 +58,11 @@ export default function InstallationGuidePage() {
                             },
                             {
                                 title: "Choose Location",
-                                desc: "Select the destination folder. We recommend keeping the default: C:\\Program Files\\Read-Lib."
+                                desc: "Select the destination folder. We recommend keeping the default: C:\\Program Files\\Read Your Lib."
                             },
                             {
                                 title: "Complete Installation",
-                                desc: "Click 'Install' and wait for the files to copy. Once finished, ensure 'Launch Read-Lib' is checked and click 'Finish'."
+                                desc: "Click 'Install' and wait for the files to copy. Once finished, ensure 'Launch Read Your Lib' is checked and click 'Finish'."
                             }
                         ].map((step, i) => (
                             <div key={i} className="flex gap-6 md:gap-10">

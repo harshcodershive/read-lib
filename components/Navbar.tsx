@@ -41,7 +41,7 @@ export function Navbar() {
                             <BookOpen className="h-6 w-6 text-primary" />
                         </div>
                         <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600 dark:to-purple-300">
-                            Read-Lib
+                            Read Your Lib
                         </span>
                     </Link>
 
@@ -66,7 +66,7 @@ export function Navbar() {
                         </Button> */}
                         <Link href="/download/windows">
                             <Button size="sm" className="shadow-lg shadow-primary/25">
-                                Request Demo
+                                Download Now
                             </Button>
                         </Link>
                     </div>

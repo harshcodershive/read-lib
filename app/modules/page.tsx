@@ -58,7 +58,7 @@ export default function ModulesPage() {
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl font-bold mb-4">System Modules</h1>
                     <p className="opacity-90 max-w-2xl mx-auto text-lg">
-                        Read-Lib is modular by design. Activate what you need, when you need it.
+                        Read Your Lib is modular by design. Activate what you need, when you need it.
                     </p>
                 </div>
             </section>

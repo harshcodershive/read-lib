@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpen, MapPin } from "lucide-react";
+import { BookOpen, MapPin, Mail } from "lucide-react";
 
 export function Footer() {
     return (
@@ -10,7 +10,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <Link href="/" className="flex items-center gap-2">
                             <BookOpen className="h-6 w-6 text-primary" />
-                            <span className="text-xl font-bold">Read-Lib</span>
+                            <span className="text-xl font-bold">Read Your Lib</span>
                         </Link>
                         <p className="text-sm text-muted-foreground leading-relaxed">
                             Empowering libraries with smart, cloud-based management solutions.
@@ -44,8 +44,12 @@ export function Footer() {
 
                     {/* Location */}
                     <div>
-                        <h3 className="font-semibold mb-4">Location</h3>
+                        <h3 className="font-semibold mb-4">Contact Us</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
+                            <li className="flex items-center gap-3">
+                                <Mail className="h-4 w-4 text-primary" />
+                                <a href="mailto:support@readyourlib.com" className="hover:text-primary transition-colors">support@readyourlib.com</a>
+                            </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
                                 <span>18, 207 Regent Street,<br />London, United Kingdom,<br />W1B 3HH</span>
@@ -55,7 +59,7 @@ export function Footer() {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-border mt-12 pt-8 text-sm text-muted-foreground">
-                    <p>&copy; {new Date().getFullYear()} Read-Lib. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Read Your Lib. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy-policy" className="hover:text-foreground">Privacy Policy</Link>
                         <Link href="/terms-of-service" className="hover:text-foreground">Terms of Service</Link>

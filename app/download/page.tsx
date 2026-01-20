@@ -20,7 +20,7 @@ export default function DownloadPage() {
             </section>
 
             <section className="py-20 container mx-auto px-4">
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center justify-center">
                     {/* Windows */}
                     <Card className="border-2 border-primary/20 relative overflow-hidden">
                         <div className="absolute top-0 right-0 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-bl-lg">

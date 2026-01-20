@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Book, Users, BarChart3, Cloud, ShieldCheck, Zap } from "lucide-react";
+import { ArrowRight, Book, Users, Cloud, ShieldCheck, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
 const container = {
@@ -66,12 +67,14 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-col sm:flex-row gap-4 w-full justify-center pt-4"
             >
-              <Button size="lg" className="h-12 px-8 text-base shadow-lg shadow-primary/20">
-                Get Started Now <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline" className="h-12 px-8 text-base">
+              <Link href="/download">
+                <Button size="lg" className="h-12 px-8 text-base shadow-lg shadow-primary/20">
+                  Download Now<ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              {/* <Button size="lg" variant="outline" className="h-12 px-8 text-base">
                 Request Demo
-              </Button>
+              </Button> */}
             </motion.div>
           </div>
         </div>
@@ -181,14 +184,14 @@ export default function Home() {
 
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-purple-600 rounded-3xl blur-2xl opacity-20"></div>
-              <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border bg-background/50 glass-card flex items-center justify-center">
-                {/* Placeholder for Product Screenshot or Dashboard UI */}
-                <div className="text-center p-8">
-                  <div className="bg-primary/10 p-4 rounded-full inline-flex mb-4">
-                    <BarChart3 className="h-12 w-12 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium text-muted-foreground">Dashboard Preview UI</p>
-                </div>
+              <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border/50">
+                <Image
+                  src="/lib-app-pic.jpg"
+                  alt="Read-Lib Dashboard Interface"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -196,7 +199,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24">
+      {/* <section className="py-24">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="relative rounded-3xl overflow-hidden bg-primary px-6 py-16 md:px-16 md:py-24 text-center">
             <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
@@ -207,6 +210,7 @@ export default function Home() {
               <p className="text-lg text-primary-foreground/80">
                 Join hundreds of schools and libraries already using Read-Lib to manage their collections effortlessly.
               </p>
+              
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
                 <Button size="lg" variant="secondary" className="font-semibold h-12 px-8">
                   Get Started for Free
@@ -218,7 +222,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

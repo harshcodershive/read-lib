@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Download, CheckCircle, ShieldCheck, AlertCircle } from "lucide-react";
+import Image from "next/image";
 
 export default function WindowsDownloadPage() {
     return (
@@ -106,10 +107,16 @@ export default function WindowsDownloadPage() {
             <section className="py-20 bg-muted/20">
                 <div className="container px-4 text-center">
                     <h2 className="text-2xl font-bold mb-8">Preview</h2>
+
                     <div className="rounded-xl border shadow-2xl overflow-hidden max-w-4xl mx-auto bg-black">
-                        {/* Placeholder for Windows Screenshot */}
-                        <div className="aspect-video flex items-center justify-center text-white/50 bg-gradient-to-br from-zinc-800 to-zinc-950">
-                            <p>Read Your Lib Windows Application Screenshot</p>
+                        <div className="relative aspect-video">
+                            <Image
+                                src="/lib-app-pic.jpg"
+                                alt="Read Your Lib Dashboard Interface"
+                                fill
+                                className="object-cover"
+                                priority
+                            />
                         </div>
                     </div>
                 </div>

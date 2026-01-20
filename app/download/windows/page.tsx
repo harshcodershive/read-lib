@@ -22,12 +22,19 @@ export default function WindowsDownloadPage() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                        <Button size="lg" className="h-14 px-8 text-lg shadow-xl shadow-primary/20 bg-blue-600 hover:bg-blue-700">
-                            <Download className="mr-2 h-5 w-5" /> Download Installer (.exe)
-                        </Button>
-                        <Button size="lg" variant="outline" className="h-14 px-8 text-lg">
-                            Download MSI Package
-                        </Button>
+                        <a
+                            href="/downloads/LibrarySoftware.exe"
+                            download
+                            className="inline-block"
+                        >
+                            <Button
+                                size="lg"
+                                className="h-14 px-8 text-lg shadow-xl shadow-primary/20 bg-blue-600 hover:bg-blue-700"
+                            >
+                                <Download className="mr-2 h-5 w-5" />
+                                Download Installer (.exe)
+                            </Button>
+                        </a>
                     </div>
 
                     <p className="text-sm text-muted-foreground">

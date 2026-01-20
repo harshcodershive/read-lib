@@ -22,7 +22,7 @@ export function Footer() {
                     <div>
                         <h3 className="font-semibold mb-4">Product</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
-                            <li><Link href="/overview" className="hover:text-primary transition-colors">Overview</Link></li>
+                            <li><Link href="/product" className="hover:text-primary transition-colors">Overview</Link></li>
                             <li><Link href="/features" className="hover:text-primary transition-colors">Features</Link></li>
                             <li><Link href="/modules" className="hover:text-primary transition-colors">Modules</Link></li>
                             <li><Link href="/book-management" className="hover:text-primary transition-colors">Book Management</Link></li>
@@ -30,19 +30,31 @@ export function Footer() {
                         </ul>
                     </div>
 
+                    {/* Company & Social Proof */}
+                    <div>
+                        <h3 className="font-semibold mb-4">Company</h3>
+                        <ul className="space-y-3 text-sm text-muted-foreground">
+                            <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+                            <li><Link href="/case-studies" className="hover:text-primary transition-colors">Case Studies</Link></li>
+                            <li><Link href="/testimonials" className="hover:text-primary transition-colors">Testimonials</Link></li>
+                            <li><Link href="/security" className="hover:text-primary transition-colors">Security</Link></li>
+                            <li><Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
+                        </ul>
+                    </div>
+
                     {/* Resources & Support */}
                     <div>
                         <h3 className="font-semibold mb-4">Resources</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
+                            <li><Link href="/support" className="hover:text-primary transition-colors">Help Center</Link></li>
+                            <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
                             <li><Link href="/installation-guide" className="hover:text-primary transition-colors">Installation Guide</Link></li>
                             <li><Link href="/system-requirements" className="hover:text-primary transition-colors">System Requirements</Link></li>
-                            <li><Link href="/changelog" className="hover:text-primary transition-colors">Changelog</Link></li>
                             <li><Link href="/api-integrations" className="hover:text-primary transition-colors">API & Integrations</Link></li>
-                            <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
                         </ul>
                     </div>
 
-                    {/* Location */}
+                    {/* Contact Us */}
                     <div>
                         <h3 className="font-semibold mb-4">Contact Us</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
